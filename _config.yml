@@ -23,7 +23,7 @@ favicon: css/images/favicon.ico
 # Put your avatar.jpg into `hexo-site/themes/hiero/source/` directory.
 # url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
 avatar: 
-  enable: false
+  enable: true
   width: 124
   height: 124
   bottom: 10
@@ -35,7 +35,7 @@ about_big_image: [css/images/pose.jpg, https://source.unsplash.com/collection/95
 
 
 # Homepage thumbnail
-random_thumb: false
+random_thumb: true
 
 
 # Post Article's Content
@@ -83,8 +83,8 @@ search:
 # comment ShortName, you can choose only ONE to display.
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname:
-disqus_shortname: 
-livere_shortname: MTAyMC8yOTQ4MS82MDQ5
+disqus_shortname: bghunt
+# livere_shortname: MTAyMC8yOTQ4MS82MDQ5
 uyan_uid: 
 wumii:
 gitment:
@@ -139,7 +139,7 @@ facebook_sdk:
   webmaster:    #true
 
 # CNZZ count
-cnzz_siteid: 1260716016
+# cnzz_siteid: 1260716016
 
 # donation button
 donate:
@@ -151,7 +151,8 @@ donate:
 # Automatic page load progress bar by PACE.js
 progressBar:
   enable: true #switch
-  themeCSS: https://github.com/HubSpot/pace/raw/master/themes/orange/pace-theme-flash.css    #PATH to PACE theme CSS, support relative / absolute path
+  themeCSS: css/pace-theme-flash.css
+  # themeCSS: https://github.com/HubSpot/pace/raw/master/themes/orange/pace-theme-flash.css    #PATH to PACE theme CSS, support relative / absolute path
 
 # Ad
 ad:
